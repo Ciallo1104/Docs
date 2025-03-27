@@ -1,0 +1,91 @@
+.
+├── apps
+│   └── CMakeLists.txt
+├── cmake
+│   ├── cmake_uninstall.cmake.in
+│   └── Modules
+│       ├── CMakeParseArgumentsCopy.cmake
+│       ├── ettusConfig.cmake
+│       ├── FindCppUnit.cmake
+│       ├── Findfpga.cmake
+│       ├── FindGnuradioRuntime.cmake
+│       ├── GrMiscUtils.cmake
+│       ├── GrPlatform.cmake
+│       ├── GrPython.cmake
+│       ├── GrSwig.cmake
+│       ├── GrTest.cmake
+│       ├── run_testbench.sh.in
+│       ├── tutorialConfig.cmake
+│       └── UseSWIG.cmake
+├── CMakeLists.txt
+├── docs
+│   ├── CMakeLists.txt
+│   ├── doxygen
+│   │   ├── CMakeLists.txt
+│   │   ├── Doxyfile.in
+│   │   ├── Doxyfile.swig_doc.in
+│   │   ├── doxyxml
+│   │   │   ├── base.py
+│   │   │   ├── doxyindex.py
+│   │   │   ├── generated
+│   │   │   │   ├── compound.py
+│   │   │   │   ├── compoundsuper.py
+│   │   │   │   ├── index.py
+│   │   │   │   ├── indexsuper.py
+│   │   │   │   └── __init__.py
+│   │   │   ├── __init__.py
+│   │   │   └── text.py
+│   │   ├── other
+│   │   │   ├── group_defs.dox
+│   │   │   └── main_page.dox
+│   │   └── swig_doc.py
+│   └── README.tutorial
+├── examples
+│   ├── gain.grc
+│   └── README
+├── grc
+│   ├── CMakeLists.txt
+│   ├── tutorial_gain.block.yml
+│   └── tutorial.tree.yml
+├── include
+│   └── tutorial
+│       ├── api.h
+│       ├── CMakeLists.txt
+│       ├── gain_block_ctrl.hpp
+│       └── gain.h
+├── lib
+│   ├── CMakeLists.txt
+│   ├── gain_block_ctrl_impl.cpp
+│   ├── gain_impl.cc
+│   ├── gain_impl.h
+│   ├── qa_tutorial.cc
+│   ├── qa_tutorial.h
+│   └── test_tutorial.cc
+├── MANIFEST.md
+├── python
+│   ├── build_utils_codes.py
+│   ├── build_utils.py
+│   ├── CMakeLists.txt
+│   └── __init__.py
+├── README.md
+├── rfnoc
+│   ├── blocks
+│   │   ├── CMakeLists.txt
+│   │   └── gain.yml
+│   ├── CMakeLists.txt
+│   ├── fpga
+│   │   ├── CMakeLists.txt
+│   │   ├── Makefile.srcs
+│   │   └── rfnoc_block_gain
+│   │       ├── CMakeLists.txt
+│   │       ├── Makefile
+│   │       ├── Makefile.srcs
+│   │       ├── noc_shell_gain.v
+│   │       ├── rfnoc_block_gain_tb.sv
+│   │       └── rfnoc_block_gain.v
+│   └── icores
+│       ├── CMakeLists.txt
+│       └── gain_x310_rfnoc_image_core.yml
+└── swig
+    ├── CMakeLists.txt
+    └── tutorial_swig.i
