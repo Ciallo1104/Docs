@@ -177,9 +177,11 @@ print_background: false
   ```
   
   具体工作情况如下：
+
   ![rfnocmodtool add](./img/v0.1/s2/1.PNG)
 
-  其文件树仅供参考，见[File Tree](./example/file_tree_OOT_gen.txt)
+  其文件树仅供参考，见
+  [File Tree](./example/file_tree_OOT_gen.txt)
 
 ## 3 FPGA框架(无IP)
 

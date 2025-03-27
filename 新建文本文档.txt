@@ -1,9 +1,0 @@
-console.log(document.querySelector('#main').innerHTML);
-
-echo "# Docs" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Ciallo1104/Docs.git
-git push -u origin main
